@@ -2,33 +2,35 @@
 
 // 1. Declare a variable named 'creatureName' and assign it a magical creature's name as a string.
 
+let creatureName=" Cheap Doll"
 
 
 // 2. Declare a variable named 'creatureDescription' and describe its magical properties as a string.
-
+let creatureDescription="Barbie that was sold for 2cents, spread postivity by fighting bad guys to increase net worth in barbie land "
 
 // 3. Do you believe that this creature is friendly to humans? 
 // Declare a variable named 'isFriendly' and assign it a boolean value.
 
-
+let isFriendly= true
 
 // 4. The magical zoo has an age restriction! Declare a variable named 'visitorAge' and assign it a random age between 1 and 60.
 // Hint: Use Math.floor() to round a number up.
 // Hint: Use Math.random() for generating random numbers.
 
-
+let vistorAgeDecimal= 60 * Math.random()
+let vistorAge = Math.round(vistorAgeDecimal)
 
 // 5. Determine if the visitor is allowed to see the creature.
 // Declare a variable named 'canVisit' and assign it an expression to see 
 // if the visitorAge variable is greater than 15.
 // Hint: use this resource if you need support: https://www.w3schools.com/js/js_booleans.asp 
-
+let canVisit = vistorAge > 15 
 
 
 // 6. Combine all the information into a summary.
 // Declare a variable named 'zooSummary' and combine all the above information using concatenation.
-
-
+let zooSummary = "Bob can visit" + creatureName + " which is friendly " + isFriendly
+console.log(zooSummary)
 // 7. Print the summary using console.log()
 
 
